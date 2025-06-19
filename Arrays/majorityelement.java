@@ -9,7 +9,7 @@ public class majorityelement {
                     count++;
                 }
             }
-            if (count > n / 2) {
+            if (count > 1) {
                 return numbers[i];
             }
         }
